@@ -1,0 +1,37 @@
+instance,information_policy,candidate,accounting,local_quantile_tolerance,finite_model_cost_usd,design_mean_cost_usd,design_violation_rate,design_violation_upper_95,risk_limit,passes_joint_risk_screen,policy_failures,states_evaluated
+Base budget,Baseline only,Global hard,global_hard,0.0,924567.5577225373,924567.415058093,0.0,0.001917047281252934,0.01,True,0,6410
+Base budget,Baseline only,Quantile 66%,posterior_quantile,0.34,792735.8681916498,792735.870739995,0.0,0.001917047281252934,0.01,True,0,8042
+Base budget,Baseline only,Quantile 99%,posterior_quantile,0.01,924567.5577225373,924567.415058093,0.0,0.001917047281252934,0.01,True,0,6451
+Base budget,Baseline plus telemetry,Global hard,global_hard,0.0,924567.5577225373,924567.415058093,0.0,0.001917047281252934,0.01,True,0,14476
+Base budget,Baseline plus telemetry,Quantile 66%,posterior_quantile,0.34,792735.8681916498,792735.870739995,0.0,0.001917047281252934,0.01,True,0,54370
+Base budget,Baseline plus telemetry,Quantile 99%,posterior_quantile,0.01,834585.257338191,834099.7793357599,0.0,0.001917047281252934,0.01,True,0,27578
+Diesel factor plus 3 percent,Baseline only,Global hard,global_hard,0.0,inf,,,,0.01,False,2000,3537
+Diesel factor plus 3 percent,Baseline only,Quantile 66%,posterior_quantile,0.34,inf,,,,0.01,False,2000,4376
+Diesel factor plus 3 percent,Baseline only,Quantile 99%,posterior_quantile,0.01,inf,,,,0.01,False,2000,3579
+Diesel factor plus 3 percent,Baseline plus telemetry,Global hard,global_hard,0.0,inf,,,,0.01,False,2000,7454
+Diesel factor plus 3 percent,Baseline plus telemetry,Quantile 66%,posterior_quantile,0.34,inf,,,,0.01,False,2000,15536
+Diesel factor plus 3 percent,Baseline plus telemetry,Quantile 99%,posterior_quantile,0.01,inf,,,,0.01,False,2000,15136
+Initial EV and charger,Baseline only,Global hard,global_hard,0.0,574698.6813271688,574699.1051351569,0.0,0.001917047281252934,0.01,True,0,2479
+Initial EV and charger,Baseline only,Quantile 66%,posterior_quantile,0.34,574698.6813271688,574699.1051351569,0.0,0.001917047281252934,0.01,True,0,2555
+Initial EV and charger,Baseline only,Quantile 99%,posterior_quantile,0.01,574698.6813271688,574699.1051351569,0.0,0.001917047281252934,0.01,True,0,2479
+Initial EV and charger,Baseline plus telemetry,Global hard,global_hard,0.0,574698.6813271688,574699.1051351569,0.0,0.001917047281252934,0.01,True,0,6727
+Initial EV and charger,Baseline plus telemetry,Quantile 66%,posterior_quantile,0.34,574698.6813271688,574699.1051351569,0.0,0.001917047281252934,0.01,True,0,38493
+Initial EV and charger,Baseline plus telemetry,Quantile 99%,posterior_quantile,0.01,574698.6813271688,574699.1051351569,0.0,0.001917047281252934,0.01,True,0,17251
+Loose budget,Baseline only,Global hard,global_hard,0.0,777371.7570330658,777371.6866374465,0.0,0.001917047281252934,0.01,True,0,7134
+Loose budget,Baseline only,Quantile 66%,posterior_quantile,0.34,772460.2262043883,772460.1525733118,0.0,0.001917047281252934,0.01,True,0,8250
+Loose budget,Baseline only,Quantile 99%,posterior_quantile,0.01,777371.7570330658,777371.6866374465,0.0,0.001917047281252934,0.01,True,0,7153
+Loose budget,Baseline plus telemetry,Global hard,global_hard,0.0,777371.7570330658,777371.6866374465,0.0,0.001917047281252934,0.01,True,0,16691
+Loose budget,Baseline plus telemetry,Quantile 66%,posterior_quantile,0.34,772460.2262043883,772460.1525733118,0.0,0.001917047281252934,0.01,True,0,55552
+Loose budget,Baseline plus telemetry,Quantile 99%,posterior_quantile,0.01,777371.7570330658,777371.6866374465,0.0,0.001917047281252934,0.01,True,0,28880
+One regional duty becomes suburban,Baseline only,Global hard,global_hard,0.0,591629.0267989464,591628.9497090747,0.0,0.001917047281252934,0.01,True,0,7300
+One regional duty becomes suburban,Baseline only,Quantile 66%,posterior_quantile,0.34,591629.0267989464,591628.9497090747,0.0,0.001917047281252934,0.01,True,0,8052
+One regional duty becomes suburban,Baseline only,Quantile 99%,posterior_quantile,0.01,591629.0267989464,591628.9497090747,0.0,0.001917047281252934,0.01,True,0,7319
+One regional duty becomes suburban,Baseline plus telemetry,Global hard,global_hard,0.0,591629.0267989464,591628.9497090747,0.0,0.001917047281252934,0.01,True,0,17128
+One regional duty becomes suburban,Baseline plus telemetry,Quantile 66%,posterior_quantile,0.34,591629.0267989464,591628.9497090747,0.0,0.001917047281252934,0.01,True,0,51354
+One regional duty becomes suburban,Baseline plus telemetry,Quantile 99%,posterior_quantile,0.01,591629.0267989464,591628.9497090747,0.0,0.001917047281252934,0.01,True,0,28839
+Tight budget,Baseline only,Global hard,global_hard,0.0,944629.6902366136,944629.6352502968,0.0,0.001917047281252934,0.01,True,0,5532
+Tight budget,Baseline only,Quantile 66%,posterior_quantile,0.34,867802.7864240472,868394.8055430482,0.08,0.09271074519851809,0.01,False,0,7737
+Tight budget,Baseline only,Quantile 99%,posterior_quantile,0.01,944629.6902366136,944629.6352502968,0.0,0.001917047281252934,0.01,True,0,5604
+Tight budget,Baseline plus telemetry,Global hard,global_hard,0.0,944629.6902366136,944629.6352502968,0.0,0.001917047281252934,0.01,True,0,12159
+Tight budget,Baseline plus telemetry,Quantile 66%,posterior_quantile,0.34,843189.900908141,842669.4002945609,0.0,0.001917047281252934,0.01,True,0,51609
+Tight budget,Baseline plus telemetry,Quantile 99%,posterior_quantile,0.01,901116.3410092216,901470.0499268064,0.0,0.001917047281252934,0.01,True,0,25254

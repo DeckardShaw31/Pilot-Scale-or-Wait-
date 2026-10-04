@@ -1,0 +1,49 @@
+{
+  "scope": "Maxima over distinct belief/likelihood pairs in cached subproblem policies, not path-weighted error bounds. Computed Gaussian category probabilities are subject to floating-point underflow. Positive unrounded Gaussian likelihoods do not eliminate latent regimes; this audit does not certify exact-support hard-carbon compliance.",
+  "source_sha256": {
+    "src/audit_posterior.py": "e72b0bd35cbdda417b97ef9b4756a5a46ba022e41db11bbc057d2041792918da",
+    "src/prototype_dp.py": "bdbfcddc10d4c384984e1c57fbb097b4a2d8848dd8d51bc5083833e4315e035b"
+  },
+  "configurations": [
+    {
+      "case": "Base",
+      "objective_usd": 834585.2573381911,
+      "cached_policy_states": 22617,
+      "distinct_belief_likelihood_pairs": 7,
+      "max_omitted_predictive_category_mass": 0.0,
+      "max_regime_mass_removed_by_quantization_or_tolerance": 0.0004292501567144639,
+      "max_posterior_component_error": 0.0009571740766914916,
+      "posterior_categories_with_support_changes": 3
+    },
+    {
+      "case": "Belief precision 5",
+      "objective_usd": 834492.0572752587,
+      "cached_policy_states": 21833,
+      "distinct_belief_likelihood_pairs": 7,
+      "max_omitted_predictive_category_mass": 0.0,
+      "max_regime_mass_removed_by_quantization_or_tolerance": 2.911690940660554e-07,
+      "max_posterior_component_error": 7.083813634192748e-06,
+      "posterior_categories_with_support_changes": 1
+    },
+    {
+      "case": "Seven signal categories",
+      "objective_usd": 834585.2573381148,
+      "cached_policy_states": 27821,
+      "distinct_belief_likelihood_pairs": 11,
+      "max_omitted_predictive_category_mass": 4.778088971398671e-13,
+      "max_regime_mass_removed_by_quantization_or_tolerance": 0.0004292501567144639,
+      "max_posterior_component_error": 0.0009571740766914916,
+      "posterior_categories_with_support_changes": 6
+    },
+    {
+      "case": "Support tolerance 0.001",
+      "objective_usd": 834585.2573381911,
+      "cached_policy_states": 22617,
+      "distinct_belief_likelihood_pairs": 7,
+      "max_omitted_predictive_category_mass": 0.0,
+      "max_regime_mass_removed_by_quantization_or_tolerance": 0.0,
+      "max_posterior_component_error": 0.0009571740766914916,
+      "posterior_categories_with_support_changes": 0
+    }
+  ]
+}

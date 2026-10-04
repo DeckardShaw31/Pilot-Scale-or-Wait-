@@ -1,0 +1,11 @@
+{
+  "instance": "Diesel factor plus 3 percent",
+  "information_policy": "Baseline plus telemetry",
+  "candidate": "Global hard",
+  "accounting": "global_hard",
+  "local_quantile_tolerance": 0.0,
+  "finite_model_cost_usd": Infinity,
+  "states_evaluated": 7454,
+  "design": null,
+  "evaluation": []
+}

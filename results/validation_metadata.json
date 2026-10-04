@@ -1,0 +1,24 @@
+{
+  "seeds": [
+    20261003,
+    20261004
+  ],
+  "paths_per_seed": 2000,
+  "precision_target_usd": 5000,
+  "python": "3.13.15",
+  "numpy": "2.4.1",
+  "scipy": "1.17.0",
+  "pandas": "2.3.3",
+  "input_sha256": {
+    "data/empirical/assets.csv": "7f03c31d09412ca17b2fa42842a08c10657f1dd80dd32f950656bd90174d1ef8",
+    "data/empirical/carbon_and_policy_inputs.csv": "aa5036f6154f46bc7fe9155ee8fc6673f0b16f399532371942c2f21edb0f2a3a",
+    "data/empirical/depot_energy.csv": "262ccfd510afb9288b5b50533edc87c1d6fc95497193989eeb4dfcd84ac20df2",
+    "data/empirical/duty_cycle_operations.csv": "d9a5335b8b5f7cfd812748c03c232818ce298863d91aa5134bb037a67bf161ca",
+    "data/empirical/monitoring_protocols.csv": "db51197a76dc36be1a4c3a7518eca89c7afb6000d10ca9c9c0d151b266d6e44b",
+    "data/fleet_asset_cost_parameters.csv": "118932b9029a1e56eebfe7ef9b6c4970d76d7c46d29794fbca2bed8b5483c35b",
+    "src/prototype_dp.py": "bdbfcddc10d4c384984e1c57fbb097b4a2d8848dd8d51bc5083833e4315e035b",
+    "src/validate_study.py": "7f2c69f1a1b3cf328a1394ca2018eff65aa35a775b3c1cabdada35be9a274b36"
+  },
+  "physical_process": "Clipped normal traction and auxiliary draws; resampled simulated facility loads; fixed diesel fuel means; shared potential electric duties and observation errors; no stochastic service failures.",
+  "evaluation_boundary": "Independent simulated paths; not empirical validation. Telemetry contamination is an unretrained distribution-shift stress test. No failed paths are silently excluded."
+}

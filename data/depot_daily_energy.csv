@@ -1,0 +1,15 @@
+date,depot_id,ambient_temp_c,weather_cond,facility_aux_kwh,notes
+2026-03-01,Depot_Central,14.5,Dry,15.2,"Base facility lighting, IT, and charger standby"
+2026-03-02,Depot_Central,12.0,Rain,16.0,Increased facility heating and yard lighting
+2026-03-03,Depot_Central,9.5,Cold_Wind,18.5,Cold weather space heating and charger pre-conditioning
+2026-03-04,Depot_Central,16.0,Dry,14.8,Mild weather baseload
+2026-03-05,Depot_Central,17.2,Dry,14.5,Mild weather baseload
+2026-03-06,Depot_Central,15.0,Dry,14.6,Mild weather baseload
+2026-03-07,Depot_Central,18.0,Dry,14.2,Mild weather baseload
+2026-03-08,Depot_Central,19.5,Dry,14.0,Mild weather baseload
+2026-03-09,Depot_Central,11.0,Rain,16.8,Rain and HVAC load
+2026-03-10,Depot_Central,13.0,Dry,15.0,Mild weather baseload
+2026-03-11,Depot_Central,15.5,Dry,14.4,Mild weather baseload
+2026-03-12,Depot_Central,16.5,Dry,14.3,Mild weather baseload
+2026-03-13,Depot_Central,14.0,Dry,14.9,Mild weather baseload
+2026-03-14,Depot_Central,17.0,Dry,14.1,Mild weather baseload

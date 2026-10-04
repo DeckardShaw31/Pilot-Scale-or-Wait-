@@ -1,0 +1,49 @@
+{
+  "instance": "Base budget",
+  "information_policy": "Baseline only",
+  "candidate": "Quantile 99%",
+  "accounting": "posterior_quantile",
+  "local_quantile_tolerance": 0.01,
+  "finite_model_cost_usd": 924567.5577225373,
+  "states_evaluated": 6451,
+  "design": {
+    "paths": 2000,
+    "mean_cost_usd": 924567.415058093,
+    "violation_rate": 0.0,
+    "violation_upper_95": 0.001917047281252934,
+    "policy_failures": 0,
+    "passes_joint_risk_screen": true
+  },
+  "evaluation": [
+    {
+      "seed": 20261002,
+      "paths": 2000,
+      "policy_failures": 0,
+      "mean_cost_usd": 924576.1862533581,
+      "cost_ci_low": 924488.2663690726,
+      "cost_ci_high": 924664.1061376437,
+      "mean_carbon_tonnes": 824.2698410126267,
+      "carbon_ci_low": 824.0650576644168,
+      "carbon_ci_high": 824.4746243608365,
+      "violation_rate": 0.0,
+      "violation_upper_95": 0.001917047281252934,
+      "monitoring_frequency": 0.0,
+      "two_ev_frequency": 1.0
+    },
+    {
+      "seed": 20261003,
+      "paths": 2000,
+      "policy_failures": 0,
+      "mean_cost_usd": 924502.1142217949,
+      "cost_ci_low": 924413.7420232799,
+      "cost_ci_high": 924590.4864203099,
+      "mean_carbon_tonnes": 824.0972976652369,
+      "carbon_ci_low": 823.891458165151,
+      "carbon_ci_high": 824.3031371653227,
+      "violation_rate": 0.0,
+      "violation_upper_95": 0.001917047281252934,
+      "monitoring_frequency": 0.0,
+      "two_ev_frequency": 1.0
+    }
+  ]
+}

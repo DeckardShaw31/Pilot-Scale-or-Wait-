@@ -1,0 +1,14 @@
+parameter_name,symbol,value,unit,source_reference,notes
+diesel_combustion_factor,g_D,0.002697,tonnes_CO2/liter,EPA GHG Hub 2025 Mobile Combustion,Direct Scope 1 combustion (10.21 kg/gal)
+electricity_grid_factor_RFCE,g_E_RFCE,0.000272,tonnes_CO2e/kWh,EPA eGRID2023 (released 2025),RFC East: 599.645 lb/MWh
+electricity_grid_factor_CAMX,g_E_CAMX,0.000195,tonnes_CO2e/kWh,EPA eGRID2023 (released 2025),WECC California: 429.983 lb/MWh
+electricity_grid_factor_USavg,g_E_USavg,0.000350,tonnes_CO2e/kWh,EPA eGRID2023 (released 2025),US National Average: 771.618 lb/MWh
+annual_emissions_cap_active,C_cap,300.0,tonnes_CO2/year,Active Transition Policy Scenario,Binding annual threshold
+cumulative_carbon_budget_active,b_1,836.0,tonnes_CO2,Active Transition Policy Scenario,3-year cumulative budget ceiling
+annual_emissions_cap_infeasible,C_cap_inf,220.0,tonnes_CO2/year,Infeasible Diagnostic Benchmark,Below 226.52 t/yr diesel floor
+cumulative_carbon_budget_infeasible,b_1_inf,800.0,tonnes_CO2,Infeasible Diagnostic Benchmark,Diagnostic check
+annual_emissions_cap_control,C_cap_ctrl,400.0,tonnes_CO2/year,Unconstrained Control Scenario,Non-binding upper bound
+cumulative_carbon_budget_control,b_1_ctrl,1200.0,tonnes_CO2,Unconstrained Control Scenario,Non-binding cumulative upper bound
+outsourced_emissions_factor_D1,g_O_D1,0.065,tonnes_CO2/bundle,3PL Contractor Model,Urban spot contractor emissions
+outsourced_emissions_factor_D2,g_O_D2,0.105,tonnes_CO2/bundle,3PL Contractor Model,Suburban spot contractor emissions
+outsourced_emissions_factor_D3,g_O_D3,0.160,tonnes_CO2/bundle,3PL Contractor Model,Regional spot contractor emissions

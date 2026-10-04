@@ -1,0 +1,17 @@
+asset_id,asset_type,technology,make_model_specification,depot_id,rated_power_or_engine,usable_energy_capacity_kwh,charger_plugs,order_lead_time_quarters,order_date,delivery_date,commission_date,gross_purchase_cost_usd,incentive_ira_section_usd,net_capital_cost_usd,maintenance_rate_usd_per_km,expected_useful_life_years,salvage_value_fraction,charging_efficiency_eta,operational_status
+EV-01,Vehicle,Battery_Electric,"Freightliner eM2 (200 kWh LFP, 250 kW eAxle)",Depot_Central,250 kW Peak,200.0,N/A,2,2024-05-01,2024-11-15,2024-12-15,220000,40000,180000,0.18,10,0.25,0.88,Active_From_Day_1
+EV-02,Vehicle,Battery_Electric,Lion6 Class 6 Electric Box Truck (210 kWh),Depot_Central,250 kW Peak,200.0,N/A,2,2024-09-10,2025-03-15,2025-04-01,225000,40000,185000,0.18,10,0.25,0.88,Commissioned_Q2_Day_66
+EV-03,Vehicle,Battery_Electric,Kenworth K270E (212 kWh High-Density Pack),Depot_Central,265 kW Peak,200.0,N/A,2,2024-12-05,2025-06-15,2025-07-01,230000,40000,190000,0.18,10,0.25,0.88,Commissioned_Q3_Day_131
+D-01,Vehicle,Diesel,Freightliner M2 106 (6.7L Cummins ISB),Depot_Central,240 HP,N/A,N/A,1,2022-05-01,2022-08-15,2022-09-01,92000,0,92000,0.34,10,0.18,N/A,Depot_Reserve_Standby
+D-02,Vehicle,Diesel,Freightliner M2 106 (6.7L Cummins ISB),Depot_Central,240 HP,N/A,N/A,1,2023-08-15,2023-11-20,2023-12-01,95000,0,95000,0.32,10,0.20,N/A,Active_Q1_Then_Reserve
+D-03,Vehicle,Diesel,Freightliner M2 106 (6.7L Cummins ISB),Depot_Central,240 HP,N/A,N/A,1,2023-08-15,2023-11-20,2023-12-01,95000,0,95000,0.32,10,0.20,N/A,Active_Q1_Q2_Then_Reserve
+D-04,Vehicle,Diesel,International MV607 (6.7L Cummins),Depot_Central,250 HP,N/A,N/A,1,2023-09-01,2023-12-10,2024-01-02,98000,0,98000,0.33,10,0.20,N/A,Active_Suburban_DUTY_SUB_01
+D-05,Vehicle,Diesel,International MV607 (6.7L Cummins),Depot_Central,250 HP,N/A,N/A,1,2023-09-01,2023-12-10,2024-01-02,98000,0,98000,0.33,10,0.20,N/A,Active_Suburban_DUTY_SUB_02
+D-06,Vehicle,Diesel,Kenworth T280 (PACCAR PX-7),Depot_Central,240 HP,N/A,N/A,1,2024-01-10,2024-04-15,2024-05-01,102000,0,102000,0.31,10,0.22,N/A,Active_Suburban_DUTY_SUB_03
+D-07,Vehicle,Diesel,Kenworth T280 (PACCAR PX-7),Depot_Central,240 HP,N/A,N/A,1,2024-01-10,2024-04-15,2024-05-01,102000,0,102000,0.31,10,0.22,N/A,Active_Suburban_DUTY_SUB_04
+D-08,Vehicle,Diesel,Freightliner M2 106 (6.7L Cummins ISB),Depot_Central,240 HP,N/A,N/A,1,2022-05-01,2022-08-15,2022-09-01,92000,0,92000,0.34,10,0.18,N/A,Active_Regional_DUTY_REG_01
+D-09,Vehicle,Diesel,International MV607 (6.7L Cummins),Depot_Central,250 HP,N/A,N/A,1,2022-06-15,2022-09-20,2022-10-01,94000,0,94000,0.34,10,0.18,N/A,Active_Regional_DUTY_REG_02
+D-10,Vehicle,Diesel,International MV607 (6.7L Cummins),Depot_Central,250 HP,N/A,N/A,1,2022-06-15,2022-09-20,2022-10-01,94000,0,94000,0.34,10,0.18,N/A,Active_Regional_DUTY_REG_03
+CHG-01,Charger,DCFC_CCS1,ChargePoint Express 250 (50 kW DC),Depot_Central,50 kW,N/A,1,3,2024-02-15,2024-10-20,2024-11-30,45000,7500,37500,N/A,10,0.10,0.92,Active
+CHG-02,Charger,DCFC_CCS1,ABB Terra 54 Dual-Outlet (50 kW DC),Depot_Central,50 kW,N/A,2,3,2024-06-10,2025-02-15,2025-03-25,48000,7500,40500,N/A,10,0.10,0.92,Active
+GRID-01,Grid_Infrastructure,Electric_Service,Medium General Service (250 kW Capacity),Depot_Central,250 kW,N/A,N/A,4,2023-10-01,2024-09-01,2024-10-15,60000,0,60000,N/A,25,0.00,N/A,Active

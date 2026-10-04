@@ -1,0 +1,49 @@
+{
+  "instance": "One regional duty becomes suburban",
+  "information_policy": "Baseline plus telemetry",
+  "candidate": "Quantile 66%",
+  "accounting": "posterior_quantile",
+  "local_quantile_tolerance": 0.34,
+  "finite_model_cost_usd": 591629.0267989464,
+  "states_evaluated": 51354,
+  "design": {
+    "paths": 2000,
+    "mean_cost_usd": 591628.9497090747,
+    "violation_rate": 0.0,
+    "violation_upper_95": 0.001917047281252934,
+    "policy_failures": 0,
+    "passes_joint_risk_screen": true
+  },
+  "evaluation": [
+    {
+      "seed": 20261002,
+      "paths": 2000,
+      "policy_failures": 0,
+      "mean_cost_usd": 591628.9425914779,
+      "cost_ci_low": 591628.6910158253,
+      "cost_ci_high": 591629.1941671305,
+      "mean_carbon_tonnes": 804.1479492677678,
+      "carbon_ci_low": 804.1474021148258,
+      "carbon_ci_high": 804.1484964207098,
+      "violation_rate": 0.0,
+      "violation_upper_95": 0.001917047281252934,
+      "monitoring_frequency": 0.0,
+      "two_ev_frequency": 0.0
+    },
+    {
+      "seed": 20261003,
+      "paths": 2000,
+      "policy_failures": 0,
+      "mean_cost_usd": 591628.9284057317,
+      "cost_ci_low": 591628.6674436578,
+      "cost_ci_high": 591629.1893678056,
+      "mean_carbon_tonnes": 804.1479251277677,
+      "carbon_ci_low": 804.147359982172,
+      "carbon_ci_high": 804.1484902733634,
+      "violation_rate": 0.0,
+      "violation_upper_95": 0.001917047281252934,
+      "monitoring_frequency": 0.0,
+      "two_ev_frequency": 0.0
+    }
+  ]
+}

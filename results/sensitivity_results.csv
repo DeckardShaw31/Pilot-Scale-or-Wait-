@@ -1,0 +1,20 @@
+factor,level,unit,joint_cost_usd,baseline_cost_usd,information_value_usd,joint_monitoring_quarters,joint_maximum_electric_vehicles,baseline_maximum_electric_vehicles,joint_feasible,baseline_feasible,states_evaluated
+Cumulative carbon budget,832.0,tonnes,901116.34,944629.69,43513.35,1,2,2.0,True,True,25158
+Cumulative carbon budget,836.0,tonnes,834585.26,924567.56,89982.3,1,2,2.0,True,True,27472
+Cumulative carbon budget,840.0,tonnes,777371.76,777371.76,0.0,0,1,1.0,True,True,28760
+Cumulative carbon budget,844.0,tonnes,758325.26,758325.26,0.0,0,1,1.0,True,True,29107
+Monitoring cost,0.0,USD per monitored quarter,834483.89,924567.56,90083.67,1,2,,True,True,27472
+Monitoring cost,10000.0,USD per monitored quarter,843494.08,924567.56,81073.47,1,2,,True,True,27472
+Monitoring cost,50000.0,USD per monitored quarter,879509.67,924567.56,45057.89,0,2,,True,True,27472
+Monitoring cost,100000.0,USD per monitored quarter,908203.33,924567.56,16364.22,0,2,,True,True,27472
+Telemetry noise,0.5,kWh standard deviation,834585.26,924567.56,89982.3,1,2,,True,True,27472
+Telemetry noise,10.0,kWh standard deviation,880380.66,924567.56,44186.9,1,2,,True,True,39362
+Telemetry noise,25.0,kWh standard deviation,924567.56,924567.56,0.0,0,2,,True,True,29316
+Asset lead times,Faster,"EV=1, charger=2 quarters",825392.69,,,1,2,,True,,30684
+Asset lead times,Base,"EV=2, charger=3 quarters",834585.26,,,1,2,,True,,27472
+Asset lead times,Slower,"EV=3, charger=4 quarters",840512.9,,,1,2,,True,,21830
+Prior distribution,Favorable-heavy,"(0.6, 0.3, 0.1)",801315.81,,,1,1,,True,,27472
+Prior distribution,Balanced,"(0.3333333333333333, 0.3333333333333333, 0.3333333333333333)",834585.26,,,1,2,,True,,27472
+Prior distribution,Adverse-heavy,"(0.1, 0.3, 0.6)",872298.23,,,1,2,,True,,27472
+Carbon accounting support,Posterior support,rule,834585.26,,,1,2,,True,,27472
+Carbon accounting support,Global support,rule,924567.56,,,0,2,,True,,14381

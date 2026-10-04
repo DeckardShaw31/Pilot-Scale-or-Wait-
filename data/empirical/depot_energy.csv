@@ -1,0 +1,261 @@
+date,depot_id,ambient_temp_c,weather_cond,charger_electricity_kwh,facility_aux_kwh,total_grid_kwh,peak_demand_kw,tariff_id,energy_rate_usd_per_kwh,demand_charge_usd_per_kw,meter_reporting_delay_days,notes
+2025-01-02,Depot_Central,0.7,Snow,149.0,20.7,169.7,56.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-03,Depot_Central,0.5,Dry,154.9,17.0,171.9,56.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-06,Depot_Central,2.0,Cold_Wind,146.8,17.2,164.0,57.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-07,Depot_Central,-0.0,Snow,154.0,22.0,176.0,55.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-08,Depot_Central,2.9,Dry,135.8,16.5,152.3,57.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-09,Depot_Central,1.1,Rain,142.3,17.4,159.7,56.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-10,Depot_Central,0.8,Dry,152.3,18.9,171.2,55.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-13,Depot_Central,0.3,Dry,154.0,16.8,170.8,56.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-14,Depot_Central,3.4,Rain,143.4,15.5,158.9,56.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-15,Depot_Central,-0.2,Dry,140.3,19.0,159.3,56.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-16,Depot_Central,2.4,Dry,153.0,17.2,170.2,56.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-17,Depot_Central,-4.3,Dry,150.6,19.7,170.3,57.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-20,Depot_Central,2.6,Dry,0.0,16.8,16.8,9.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Baseline facility load only; no active fleet charging
+2025-01-21,Depot_Central,-3.4,Cold_Wind,149.0,18.8,167.8,55.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-22,Depot_Central,0.9,Snow,141.7,19.3,161.0,56.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-23,Depot_Central,3.1,Rain,146.0,16.9,162.9,55.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-24,Depot_Central,-1.5,Dry,157.7,18.8,176.5,56.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-27,Depot_Central,-1.7,Snow,153.5,22.0,175.5,55.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-28,Depot_Central,-2.0,Snow,156.9,21.0,177.9,56.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-29,Depot_Central,-2.8,Snow,155.6,20.9,176.5,56.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-30,Depot_Central,5.3,Dry,143.6,16.9,160.5,56.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-01-31,Depot_Central,0.4,Dry,140.9,17.1,158.0,56.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-03,Depot_Central,1.0,Dry,145.0,18.6,163.6,55.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-04,Depot_Central,1.8,Heavy_Rain,158.2,19.9,178.1,56.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-05,Depot_Central,3.0,Dry,157.0,15.8,172.8,56.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-06,Depot_Central,-0.9,Dry,155.7,17.3,173.0,56.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-07,Depot_Central,0.9,Dry,154.3,16.9,171.2,56.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-10,Depot_Central,3.8,Dry,159.0,16.9,175.9,56.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-11,Depot_Central,-0.3,Dry,146.2,17.8,164.0,56.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-12,Depot_Central,2.9,Rain,157.4,16.8,174.2,57.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-13,Depot_Central,5.1,Dry,145.7,16.0,161.7,56.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-14,Depot_Central,4.6,Rain,151.4,17.8,169.2,56.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-17,Depot_Central,6.0,Dry,142.6,17.4,160.0,56.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-18,Depot_Central,2.1,Rain,144.9,16.2,161.1,55.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-19,Depot_Central,0.7,Snow,146.9,20.0,166.9,56.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-20,Depot_Central,-1.2,Snow,161.4,19.4,180.8,55.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-21,Depot_Central,-5.0,Dry,156.4,20.2,176.6,57.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-24,Depot_Central,5.2,Dry,144.4,17.1,161.5,57.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-25,Depot_Central,8.6,Dry,151.6,15.8,167.4,55.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-26,Depot_Central,-0.1,Dry,144.3,17.1,161.4,56.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-27,Depot_Central,3.7,Dry,147.0,17.6,164.6,56.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-02-28,Depot_Central,-0.4,Snow,155.0,19.9,174.9,57.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-03,Depot_Central,11.3,Dry,141.6,16.5,158.1,55.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-04,Depot_Central,5.1,Cold_Wind,141.7,17.1,158.8,55.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-05,Depot_Central,9.9,Rain,144.4,16.1,160.5,56.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-06,Depot_Central,-0.9,Snow,154.4,21.5,175.9,56.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-07,Depot_Central,4.8,Dry,148.5,16.9,165.4,56.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-10,Depot_Central,3.5,Dry,159.5,17.4,176.9,56.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-11,Depot_Central,3.4,Dry,152.4,17.2,169.6,55.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-12,Depot_Central,6.6,Rain,154.8,18.1,172.9,56.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-13,Depot_Central,10.4,Dry,142.7,15.3,158.0,55.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-14,Depot_Central,5.8,Rain,146.2,17.1,163.3,56.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-17,Depot_Central,4.3,Dry,153.8,17.9,171.7,55.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-18,Depot_Central,10.3,Rain,145.9,14.7,160.6,56.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-19,Depot_Central,7.8,Cold_Wind,139.3,15.4,154.7,56.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-20,Depot_Central,14.0,Dry,131.2,15.3,146.5,56.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-21,Depot_Central,7.7,Dry,152.6,16.0,168.6,55.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-24,Depot_Central,9.6,Dry,145.1,17.1,162.2,56.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-25,Depot_Central,8.9,Rain,147.4,15.1,162.5,56.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-26,Depot_Central,6.4,Dry,145.1,16.4,161.5,56.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-27,Depot_Central,8.0,Cold_Wind,146.8,16.6,163.4,57.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-28,Depot_Central,4.1,Dry,144.9,16.9,161.8,56.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-03-31,Depot_Central,11.0,Rain,142.0,15.0,157.0,56.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-04-01,Depot_Central,7.9,Dry,143.1,17.0,160.1,56.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-04-02,Depot_Central,9.9,Dry,152.5,16.5,169.0,56.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Single Class 6 BEV overnight dwell charging and facility baseload
+2025-04-03,Depot_Central,17.4,Windy,281.6,15.1,296.7,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-04,Depot_Central,16.5,Dry,301.4,14.3,315.7,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-07,Depot_Central,11.1,Dry,279.3,16.6,295.9,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-08,Depot_Central,9.1,Cold_Wind,292.7,14.9,307.6,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-09,Depot_Central,11.8,Dry,298.7,14.2,312.9,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-10,Depot_Central,11.3,Dry,287.8,14.3,302.1,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-11,Depot_Central,17.6,Dry,281.3,13.6,294.9,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-14,Depot_Central,8.0,Rain,298.7,15.5,314.2,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-15,Depot_Central,11.2,Dry,293.4,14.6,308.0,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-16,Depot_Central,8.1,Rain,292.9,15.9,308.8,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-17,Depot_Central,12.1,Dry,283.3,14.6,297.9,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-18,Depot_Central,18.2,Rain,287.1,15.2,302.3,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-21,Depot_Central,21.2,Dry,294.1,16.1,310.2,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-22,Depot_Central,14.8,Dry,292.7,12.5,305.2,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-23,Depot_Central,16.5,Dry,294.1,14.2,308.3,104.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-24,Depot_Central,11.4,Dry,293.7,15.5,309.2,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-25,Depot_Central,17.4,Rain,290.1,14.0,304.1,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-28,Depot_Central,16.3,Dry,309.3,14.3,323.6,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-29,Depot_Central,19.6,Dry,292.0,15.7,307.7,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-04-30,Depot_Central,19.8,Dry,293.8,17.0,310.8,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-01,Depot_Central,18.4,Rain,290.1,14.7,304.8,105.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-02,Depot_Central,16.3,Dry,275.2,15.9,291.1,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-05,Depot_Central,25.2,Dry,296.1,16.5,312.6,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-06,Depot_Central,20.5,Dry,289.1,16.6,305.7,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-07,Depot_Central,13.9,Windy,288.5,14.6,303.1,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-08,Depot_Central,19.6,Dry,295.5,14.9,310.4,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-09,Depot_Central,16.2,Rain,281.5,13.6,295.1,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-12,Depot_Central,22.6,Dry,296.7,16.6,313.3,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-13,Depot_Central,22.1,Dry,291.5,16.3,307.8,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-14,Depot_Central,18.2,Dry,291.7,13.4,305.1,104.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-15,Depot_Central,18.2,Windy,285.0,14.3,299.3,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-16,Depot_Central,18.0,Rain,284.1,15.7,299.8,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-19,Depot_Central,22.1,Dry,308.3,14.4,322.7,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-20,Depot_Central,20.9,Windy,287.9,16.9,304.8,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-21,Depot_Central,17.3,Rain,287.3,16.3,303.6,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-22,Depot_Central,24.9,Dry,296.6,18.0,314.6,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-23,Depot_Central,19.5,Rain,290.6,16.3,306.9,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-26,Depot_Central,19.9,Dry,305.1,14.8,319.9,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-27,Depot_Central,29.0,Dry,306.6,16.5,323.1,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-28,Depot_Central,22.8,Dry,285.0,16.1,301.1,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-29,Depot_Central,24.4,Dry,299.9,16.1,316.0,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-05-30,Depot_Central,27.3,Dry,303.7,16.5,320.2,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-02,Depot_Central,29.8,Dry,286.2,18.0,304.2,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-03,Depot_Central,29.0,Dry,304.4,17.1,321.5,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-04,Depot_Central,24.9,Dry,297.0,17.3,314.3,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-05,Depot_Central,25.2,Windy,283.3,17.7,301.0,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-06,Depot_Central,22.1,Dry,289.3,16.7,306.0,105.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-09,Depot_Central,25.9,Dry,287.6,16.4,304.0,104.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-10,Depot_Central,30.9,Dry,297.0,18.8,315.8,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-11,Depot_Central,27.3,Dry,298.6,17.8,316.4,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-12,Depot_Central,25.7,Dry,304.1,16.2,320.3,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-13,Depot_Central,23.5,Dry,294.2,16.2,310.4,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-16,Depot_Central,23.4,Windy,285.2,16.2,301.4,104.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-17,Depot_Central,28.1,Dry,301.1,18.2,319.3,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-18,Depot_Central,25.9,Rain,306.1,17.7,323.8,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-19,Depot_Central,26.0,Dry,292.1,17.1,309.2,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-20,Depot_Central,23.7,Dry,288.4,16.9,305.3,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-23,Depot_Central,26.7,Rain,288.9,18.2,307.1,103.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-24,Depot_Central,32.0,Dry,286.2,19.8,306.0,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-25,Depot_Central,26.8,Windy,309.0,17.4,326.4,104.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-26,Depot_Central,22.4,Dry,287.8,16.4,304.2,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-27,Depot_Central,24.8,Dry,283.1,16.6,299.7,103.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-06-30,Depot_Central,33.3,Dry,299.9,18.6,318.5,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-01,Depot_Central,25.4,Rain,281.1,16.9,298.0,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-02,Depot_Central,29.3,Dry,290.4,18.5,308.9,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-03,Depot_Central,31.4,Dry,446.4,18.2,464.6,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-04,Depot_Central,25.3,Rain,438.1,15.8,453.9,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-07,Depot_Central,24.2,Dry,442.7,16.7,459.4,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-08,Depot_Central,29.9,Dry,430.4,17.0,447.4,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-09,Depot_Central,21.4,Dry,461.4,16.0,477.4,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-10,Depot_Central,29.4,Rain,448.8,17.7,466.5,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-11,Depot_Central,26.3,Dry,436.5,16.1,452.6,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-14,Depot_Central,26.2,Dry,449.3,16.9,466.2,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-15,Depot_Central,28.6,Dry,440.5,16.8,457.3,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-16,Depot_Central,29.1,Windy,451.0,17.8,468.8,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-17,Depot_Central,24.6,Rain,450.4,16.9,467.3,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-18,Depot_Central,30.8,Dry,454.1,18.0,472.1,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-21,Depot_Central,28.3,Dry,463.9,18.1,482.0,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-22,Depot_Central,28.2,Rain,442.0,17.8,459.8,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-23,Depot_Central,32.1,Windy,451.3,17.3,468.6,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-24,Depot_Central,35.7,Dry,446.0,21.7,467.7,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-25,Depot_Central,22.9,Dry,439.1,15.9,455.0,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-28,Depot_Central,30.0,Dry,438.4,17.7,456.1,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-29,Depot_Central,31.8,Dry,440.2,17.6,457.8,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-30,Depot_Central,25.6,Dry,441.1,15.7,456.8,104.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-07-31,Depot_Central,32.5,Dry,462.9,18.0,480.9,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-01,Depot_Central,25.1,Dry,445.7,16.9,462.6,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-04,Depot_Central,28.5,Dry,462.3,17.3,479.6,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-05,Depot_Central,24.2,Rain,443.5,16.7,460.2,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-06,Depot_Central,27.6,Dry,457.8,17.0,474.8,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-07,Depot_Central,30.7,Dry,441.6,18.5,460.1,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-08,Depot_Central,27.6,Dry,437.9,17.5,455.4,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-11,Depot_Central,26.5,Dry,436.3,16.8,453.1,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-12,Depot_Central,21.5,Dry,442.2,16.2,458.4,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-13,Depot_Central,30.8,Dry,455.3,17.2,472.5,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-14,Depot_Central,27.1,Dry,453.6,17.0,470.6,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-15,Depot_Central,27.5,Dry,440.7,17.7,458.4,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-18,Depot_Central,22.3,Dry,436.4,16.0,452.4,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-19,Depot_Central,29.5,Dry,443.9,16.2,460.1,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-20,Depot_Central,26.0,Dry,449.9,16.3,466.2,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-21,Depot_Central,26.9,Dry,436.9,16.7,453.6,104.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-22,Depot_Central,24.9,Windy,443.6,16.4,460.0,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-25,Depot_Central,26.5,Dry,455.6,16.6,472.2,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-26,Depot_Central,30.5,Rain,435.4,17.2,452.6,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-27,Depot_Central,26.6,Rain,442.9,18.1,461.0,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-28,Depot_Central,26.4,Dry,433.8,18.3,452.1,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-08-29,Depot_Central,28.3,Dry,439.0,15.7,454.7,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-01,Depot_Central,25.1,Rain,450.3,16.6,466.9,105.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-02,Depot_Central,26.3,Dry,455.3,16.9,472.2,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-03,Depot_Central,21.5,Dry,449.9,15.8,465.7,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-04,Depot_Central,20.1,Dry,442.1,16.0,458.1,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-05,Depot_Central,26.3,Rain,442.1,17.0,459.1,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-08,Depot_Central,24.2,Dry,445.1,16.6,461.7,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-09,Depot_Central,22.0,Rain,448.0,15.6,463.6,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-10,Depot_Central,18.4,Windy,447.9,15.3,463.2,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-11,Depot_Central,26.9,Rain,460.7,17.2,477.9,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-12,Depot_Central,15.7,Dry,436.9,13.8,450.7,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-15,Depot_Central,25.7,Windy,453.4,16.0,469.4,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-16,Depot_Central,21.6,Dry,433.3,16.8,450.1,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-17,Depot_Central,26.6,Dry,443.7,17.3,461.0,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-18,Depot_Central,25.3,Heavy_Rain,456.6,19.4,476.0,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-19,Depot_Central,22.4,Dry,451.8,15.8,467.6,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-22,Depot_Central,18.3,Dry,442.3,14.5,456.8,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-23,Depot_Central,24.5,Heavy_Rain,441.4,18.5,459.9,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-24,Depot_Central,15.9,Dry,434.5,14.7,449.2,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-25,Depot_Central,19.6,Dry,439.1,14.8,453.9,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-26,Depot_Central,17.0,Rain,424.0,15.0,439.0,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-29,Depot_Central,16.1,Dry,434.8,14.4,449.2,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-09-30,Depot_Central,18.6,Rain,435.6,14.9,450.5,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-01,Depot_Central,19.9,Dry,442.7,16.1,458.8,104.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-02,Depot_Central,17.8,Dry,450.9,14.9,465.8,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-03,Depot_Central,18.2,Dry,425.9,15.0,440.9,103.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-06,Depot_Central,18.6,Rain,442.4,15.8,458.2,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-07,Depot_Central,14.3,Dry,425.8,14.7,440.5,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-08,Depot_Central,23.1,Heavy_Rain,435.4,19.4,454.8,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-09,Depot_Central,21.7,Dry,429.8,16.6,446.4,103.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-10,Depot_Central,19.7,Dry,445.1,14.1,459.2,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-13,Depot_Central,10.7,Rain,427.5,15.4,442.9,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-14,Depot_Central,16.5,Dry,443.1,14.6,457.7,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-15,Depot_Central,12.8,Dry,436.0,13.8,449.8,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-16,Depot_Central,13.9,Dry,419.1,14.0,433.1,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-17,Depot_Central,14.7,Rain,439.1,14.4,453.5,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-20,Depot_Central,12.3,Rain,437.7,15.0,452.7,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-21,Depot_Central,9.2,Rain,433.8,14.5,448.3,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-22,Depot_Central,13.0,Dry,444.5,13.7,458.2,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-23,Depot_Central,17.9,Windy,428.0,15.3,443.3,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-24,Depot_Central,13.2,Rain,430.2,14.2,444.4,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-27,Depot_Central,13.3,Dry,447.5,14.1,461.6,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-28,Depot_Central,13.3,Dry,443.1,15.0,458.1,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-29,Depot_Central,12.0,Dry,440.0,15.4,455.4,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-30,Depot_Central,10.8,Dry,448.7,16.1,464.8,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-10-31,Depot_Central,8.7,Rain,421.3,16.4,437.7,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-03,Depot_Central,12.0,Dry,427.2,14.5,441.7,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-04,Depot_Central,12.6,Rain,427.3,15.0,442.3,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-05,Depot_Central,8.0,Rain,447.5,15.4,462.9,104.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-06,Depot_Central,8.2,Cold_Wind,436.1,14.8,450.9,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-07,Depot_Central,9.4,Dry,436.0,14.8,450.8,104.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-10,Depot_Central,10.3,Dry,444.7,15.5,460.2,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-11,Depot_Central,7.3,Dry,429.6,15.2,444.8,105.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-12,Depot_Central,12.0,Dry,437.5,13.2,450.7,104.8,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-13,Depot_Central,8.9,Dry,443.6,16.3,459.9,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-14,Depot_Central,9.4,Dry,432.8,14.5,447.3,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-17,Depot_Central,10.3,Rain,420.8,14.2,435.0,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-18,Depot_Central,11.5,Dry,425.4,15.9,441.3,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-19,Depot_Central,7.8,Rain,294.6,16.4,311.0,104.2,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-20,Depot_Central,6.6,Dry,437.5,17.2,454.7,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-21,Depot_Central,4.0,Dry,451.1,17.3,468.4,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-24,Depot_Central,2.8,Dry,440.8,18.7,459.5,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-25,Depot_Central,0.2,Dry,456.7,18.4,475.1,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-26,Depot_Central,6.9,Rain,440.3,16.9,457.2,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-27,Depot_Central,5.1,Dry,433.5,15.8,449.3,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-11-28,Depot_Central,5.6,Dry,444.4,15.2,459.6,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-01,Depot_Central,7.0,Dry,425.6,15.7,441.3,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-02,Depot_Central,3.9,Rain,448.9,17.4,466.3,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-03,Depot_Central,5.1,Dry,434.1,15.6,449.7,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-04,Depot_Central,11.7,Dry,435.9,15.2,451.1,103.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-05,Depot_Central,9.1,Dry,439.7,15.9,455.6,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-08,Depot_Central,3.0,Rain,444.8,16.5,461.3,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-09,Depot_Central,1.8,Dry,438.9,18.6,457.5,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-10,Depot_Central,5.6,Dry,441.0,16.6,457.6,104.6,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-11,Depot_Central,2.7,Cold_Wind,453.5,18.1,471.6,104.7,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-12,Depot_Central,1.9,Dry,445.2,17.9,463.1,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-15,Depot_Central,5.5,Dry,446.5,17.2,463.7,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-16,Depot_Central,1.2,Dry,429.9,17.1,447.0,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-17,Depot_Central,10.4,Dry,431.0,16.3,447.3,105.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-18,Depot_Central,-1.0,Dry,462.4,18.5,480.9,105.1,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-19,Depot_Central,10.2,Dry,433.1,15.5,448.6,104.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-22,Depot_Central,-1.0,Snow,444.9,20.5,465.4,105.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-23,Depot_Central,1.2,Dry,446.8,16.5,463.3,105.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-24,Depot_Central,2.1,Dry,430.0,16.9,446.9,104.0,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-25,Depot_Central,-0.3,Dry,467.2,18.9,486.1,104.4,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-26,Depot_Central,8.0,Dry,425.3,17.2,442.5,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-29,Depot_Central,7.5,Rain,430.6,15.8,446.4,104.9,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-30,Depot_Central,0.1,Dry,459.0,18.6,477.6,104.5,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging
+2025-12-31,Depot_Central,0.9,Cold_Wind,452.2,17.5,469.7,105.3,TOU_COMM_COMED_BES_2025,0.14,12.50,30,Dual Class 6 BEV concurrent overnight depot charging

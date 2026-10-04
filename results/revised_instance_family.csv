@@ -1,0 +1,7 @@
+instance,telemetry_candidate,baseline_candidate,telemetry_mean_cost_usd,baseline_mean_cost_usd,information_value_usd,telemetry_mean_carbon_tonnes,baseline_mean_carbon_tonnes,telemetry_violation_upper_95,baseline_violation_upper_95,monitoring_frequency,classification
+Base budget,Quantile 66%,Quantile 66%,792743.3216290694,792743.3216290694,0.0,827.884309703034,827.884309703034,0.001917047281252934,0.001917047281252934,0.0,Zero information
+Diesel factor plus 3 percent,,,,,,,,,,,No admissible candidate
+Initial EV and charger,Global hard,Global hard,574709.0694432795,574709.0694432795,0.0,822.4627323943984,822.4627323943984,0.001917047281252934,0.001917047281252934,0.0,Zero information
+Loose budget,Quantile 66%,Quantile 66%,772463.8570420227,772463.8570420227,0.0,835.1126953299786,835.1126953299786,0.001917047281252934,0.001917047281252934,0.0,Zero information
+One regional duty becomes suburban,Global hard,Global hard,591628.9425914779,591628.9425914779,0.0,804.1479492677678,804.1479492677678,0.001917047281252934,0.001917047281252934,0.0,Zero information
+Tight budget,Quantile 66%,Global hard,844234.5740511128,944642.0432165388,100407.4691654261,825.72134887157,817.0413177208372,0.001917047281252934,0.001917047281252934,1.0,Positive information

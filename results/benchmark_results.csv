@@ -1,0 +1,7 @@
+policy,feasible,expected_discounted_cost_usd,states_evaluated,representative_carbon_tonnes,maximum_electric_vehicles,monitoring_quarters,investment_sequence
+Immediate scale,True,960210.51,29,828.786,2,0,Q1:E0/C2; Q2:E2/C0
+Flexible timing,True,924567.56,6451,835.205,2,0,Q4:E0/C1; Q5:E1/C1; Q6:E1/C0
+Fixed pilot,True,925181.84,453,835.205,2,0,Q2:E0/C1; Q3:E1/C0; Q7:E0/C1; Q8:E1/C0
+Joint policy,True,834585.26,27472,835.205,2,1,Q2:E0/C1; Q3:E1/C0; Q7:E0/C1; Q8:E1/C0
+Matched ablation,True,926049.07,453,835.205,2,1,Q2:E0/C1; Q3:E1/C0; Q7:E0/C1; Q8:E1/C0
+Parameter oracle,True,826919.76,10459,835.16,1/1/2,0,theta=1.15: Q5:E0/C1; Q6:E1/C0; theta=1.40: Q3:E0/C1; Q4:E1/C0; theta=1.75: Q4:E0/C1; Q5:E1/C1; Q6:E1/C0

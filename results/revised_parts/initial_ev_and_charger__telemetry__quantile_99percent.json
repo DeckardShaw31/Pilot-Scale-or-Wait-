@@ -1,0 +1,49 @@
+{
+  "instance": "Initial EV and charger",
+  "information_policy": "Baseline plus telemetry",
+  "candidate": "Quantile 99%",
+  "accounting": "posterior_quantile",
+  "local_quantile_tolerance": 0.01,
+  "finite_model_cost_usd": 574698.6813271688,
+  "states_evaluated": 17251,
+  "design": {
+    "paths": 2000,
+    "mean_cost_usd": 574699.1051351569,
+    "violation_rate": 0.0,
+    "violation_upper_95": 0.001917047281252934,
+    "policy_failures": 0,
+    "passes_joint_risk_screen": true
+  },
+  "evaluation": [
+    {
+      "seed": 20261002,
+      "paths": 2000,
+      "policy_failures": 0,
+      "mean_cost_usd": 574709.0694432795,
+      "cost_ci_low": 574606.278003469,
+      "cost_ci_high": 574811.8608830901,
+      "mean_carbon_tonnes": 822.4627323943984,
+      "carbon_ci_low": 822.2393385701221,
+      "carbon_ci_high": 822.6861262186746,
+      "violation_rate": 0.0,
+      "violation_upper_95": 0.001917047281252934,
+      "monitoring_frequency": 0.0,
+      "two_ev_frequency": 0.0
+    },
+    {
+      "seed": 20261003,
+      "paths": 2000,
+      "policy_failures": 0,
+      "mean_cost_usd": 574622.230783777,
+      "cost_ci_low": 574518.9270075705,
+      "cost_ci_high": 574725.5345599834,
+      "mean_carbon_tonnes": 822.2741078327573,
+      "carbon_ci_low": 822.0495976047897,
+      "carbon_ci_high": 822.4986180607249,
+      "violation_rate": 0.0,
+      "violation_upper_95": 0.001917047281252934,
+      "monitoring_frequency": 0.0,
+      "two_ev_frequency": 0.0
+    }
+  ]
+}

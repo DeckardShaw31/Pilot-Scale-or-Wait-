@@ -1,0 +1,52 @@
+{
+  "provenance": {
+    "title": "Calibrated Carbon Policy, Accounting Boundaries, and Agency Emission Factors",
+    "scientific_status": "Calibrated Simulation Package (not raw unmanipulated carrier records)",
+    "dataset_releases": {
+      "diesel_combustion": "EPA GHG Emission Factors Hub (2025 Mobile Combustion Table)",
+      "electric_grid": "EPA eGRID2023, January 15, 2025 release; June 12, 2025 revision 2; source checked October 3, 2026",
+      "depot_tariffs": "ComEd Rate BES / OpenEI URDB Rate ID: 5da63f0b5457a3253b2184bb"
+    },
+    "geography": "Illustrative RFCE electricity factor and source-attributed ComEd tariff; named-depot geographical consistency is not established.",
+    "temporal_horizon": "12 Quarters (3 Calendar Years: 2025-2027), 260 operating days/year (65 cycles/quarter)"
+  },
+  "emissions_factors": {
+    "diesel_combustion_tonnes_co2_per_liter": 0.002697,
+    "diesel_combustion_notes": "10.21 kg CO2/gallon pure combustion (EPA GHG Hub 2025)",
+    "electricity_grid_rfce_tonnes_co2e_per_kwh": 0.0002717789403329,
+    "electricity_grid_rfce_lb_per_mwh": 599.17,
+    "electricity_grid_rfce_notes": "Published EPA eGRID2023 revision-2 CO2e rate; solver CSV intentionally rounds to 0.000272 t/kWh.",
+    "electricity_grid_camx_california_tonnes_co2e_per_kwh": 0.000195037,
+    "electricity_grid_camx_lb_per_mwh": 429.983,
+    "electricity_grid_camx_notes": "EPA eGRID2023 WECC California subregion output rate (429.983 lb/MWh)",
+    "electricity_grid_us_average_tonnes_co2e_per_kwh": 0.00034966710055508,
+    "electricity_grid_us_average_lb_per_mwh": 770.884,
+    "outsourced_spot_contractor_tonnes_co2_per_bundle": {
+      "D1_Urban": 0.065,
+      "D2_Suburban": 0.105,
+      "D3_Regional": 0.16
+    },
+    "electricity_grid_us_average_notes": "Published EPA eGRID2023 revision-2 CO2e rate; solver CSV intentionally rounds to 0.000350 t/kWh."
+  },
+  "policy_scenarios": {
+    "Active_Transition": {
+      "annual_emissions_cap_tonnes_co2_per_year": 300.0,
+      "cumulative_carbon_budget_3year_tonnes_co2": 836.0,
+      "status": "Binding policy target; induces adaptive staged electrification and learning margin"
+    },
+    "Infeasible_Diagnostic": {
+      "annual_emissions_cap_tonnes_co2_per_year": 220.0,
+      "cumulative_carbon_budget_3year_tonnes_co2": 800.0,
+      "status": "Strictly infeasible benchmark; diesel-only duties alone generate 226.52 t/yr"
+    },
+    "Unconstrained_Control": {
+      "annual_emissions_cap_tonnes_co2_per_year": 400.0,
+      "cumulative_carbon_budget_3year_tonnes_co2": 1200.0,
+      "status": "Non-binding control benchmark"
+    }
+  },
+  "tax_incentive_assumptions": {
+    "ira_section_45w": "Hypothetical 40,000 USD capex offset throughout the benchmark, not current-law entitlement. IRS guidance excludes vehicles acquired after September 30, 2025; eligibility before termination still requires verification. No-offset sensitivity is reported.",
+    "section_30c": "Hypothetical 7,500 USD charger capex offset. IRS guidance excludes property placed in service after June 30, 2026; earlier eligibility and percentages are not established for this illustrative case."
+  }
+}

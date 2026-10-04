@@ -1,0 +1,11 @@
+{
+  "instance": "Diesel factor plus 3 percent",
+  "information_policy": "Baseline only",
+  "candidate": "Quantile 66%",
+  "accounting": "posterior_quantile",
+  "local_quantile_tolerance": 0.34,
+  "finite_model_cost_usd": Infinity,
+  "states_evaluated": 4376,
+  "design": null,
+  "evaluation": []
+}

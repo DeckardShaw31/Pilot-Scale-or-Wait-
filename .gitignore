@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# LaTeX files, sections, and manuscript source
+*.tex
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+*.toc
+sections/
+results/tables/
+
+# Internal research planning, audits, and checklists
+plan.md
+research/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,54 @@
+category,parameter_name,symbol,value,unit,classification,source_or_derivation,notes
+Fleet_Asset,diesel_purchase_cost,c_D,95000,USD,Synthetic diagnostic assumption,AFLEET 2024 / ICCT (2023) benchmark,Class 6 diesel commercial chassis
+Fleet_Asset,electric_purchase_cost,c_E,210000,USD,Synthetic diagnostic assumption,AFLEET 2024 / NACFE RoL-E benchmark,Class 6 battery-electric truck (200 kWh usable pack)
+Fleet_Asset,diesel_resale_proceeds_yr3,s_D,45000,USD,Synthetic diagnostic assumption,Linear residual schedule (~47% at yr 3),Assumed terminal salvage value at end of 3-year horizon
+Fleet_Asset,electric_resale_proceeds_yr3,s_E,75000,USD,Synthetic diagnostic assumption,Conservative battery depreciation (~36% at yr 3),Assumed terminal salvage value at end of 3-year horizon
+Fleet_Asset,diesel_maintenance_per_cycle,m_D,18.5,USD/cycle,Synthetic diagnostic assumption,AFLEET Class 6 (.20/mile converted for 85-90km),Per bundle/cycle assigned in-house
+Fleet_Asset,electric_maintenance_per_cycle,m_E,11.0,USD/cycle,Synthetic diagnostic assumption,AFLEET / NACFE Class 6 (.12/mile converted),Per bundle/cycle assigned in-house
+Fleet_Asset,diesel_vehicle_lead_time,L_D,1,quarters,Synthetic diagnostic assumption,Dealership order-to-delivery (~3 months),Expressed in quarterly decision epochs
+Fleet_Asset,electric_vehicle_lead_time,L_E,2,quarters,Synthetic diagnostic assumption,Commercial BEV manufacturing backlog (~6 months),Expressed in quarterly decision epochs
+Charging_Depot,depot_charger_cost_50kW,c_C,38000,USD/plug,Synthetic diagnostic assumption,EPRI / ICCT Depot Infrastructure (50 kW DCFC + make-ready),Hardware plus depot electrical balance-of-plant
+Charging_Depot,charger_power_rating,P,50,kW,Public technical specification,Standard commercial depot DC fast charger rating,Peak output power per point
+Charging_Depot,usable_battery_capacity,Q,200,kWh,Public technical specification,OEM specification (e.g. Freightliner eM2 / Class 6),Nominal 220 kWh pack with 90% DoD
+Charging_Depot,charging_efficiency,eta,0.88,fraction,Public technical benchmark,SAE J2894 / EPRI depot testing,Includes AC-DC conversion and battery thermal losses
+Charging_Depot,common_charging_window,h,10.0,hours,Synthetic diagnostic assumption,"Overnight depot dwell schedule (16h dwell, 10h dedicated charging)",Return 13:30 to Departure 07:00
+Charging_Depot,charger_installation_lead_time,L_C,3,quarters,Synthetic diagnostic assumption,Utility service queue and civil permitting (~9 months),Expressed in quarterly decision epochs
+Charging_Depot,base_depot_grid_power_limit,G_0,250,kW,Public utility tariff structure,Standard small-commercial depot interconnection,Provides 2500 kWh overnight energy window (10h); strictly non-binding for 3 urban EVs
+Monitoring,enhanced_monitoring_cost_quarterly,c_M,112.50,USD/assignment-quarter,Synthetic diagnostic assumption,Pro-rated quarterly subscription (/year telematics),Direct CAN-bus high-frequency traction logging
+Energy_Prices,diesel_fuel_price,p_D,1.05,USD/liter,Public reference point,US EIA commercial diesel reference (.98/gallon),Baseline operating fuel tariff
+Energy_Prices,electricity_energy_price,p_E,0.14,USD/kWh,Public reference point,US EIA commercial off-peak fleet charging tariff,Depot commercial rate
+Emissions,diesel_emissions_factor,g_D,0.002697,tonnes_CO2/liter,Public verified empirical factor,EPA GHG Emission Factors Hub (2025 Mobile Combustion Table),10.21 kg CO2/gallon direct combustion (CO2 only)
+Emissions,electricity_emissions_factor_RFCE,g_E_RFCE,0.000272,tonnes_CO2e/kWh,Public verified empirical factor,EPA eGRID2023 (released 2025) RFC East subregion,Regional Scope 2 electric grid factor
+Emissions,electricity_emissions_factor_USavg,g_E_USavg,0.000350,tonnes_CO2e/kWh,Public verified empirical factor,EPA eGRID2023 (released 2025) US National Average,National average Scope 2 electric grid factor
+Emissions,electricity_emissions_factor_scenario,g_E_scen,0.000380,tonnes_CO2e/kWh,Synthetic diagnostic assumption,Illustrative stress scenario (slightly carbon-intensive grid),Baseline for sensitivity tests
+Emissions,outsourced_emissions_factor_D1,g_O_D1,0.065,tonnes_CO2/bundle,Synthetic diagnostic assumption,Spot 3PL contractor (diesel baseline + repositioning),Direct outsourced service emissions
+Emissions,outsourced_emissions_factor_D2,g_O_D2,0.105,tonnes_CO2/bundle,Synthetic diagnostic assumption,Spot 3PL contractor (diesel baseline + repositioning),Direct outsourced service emissions
+Emissions,outsourced_emissions_factor_D3,g_O_D3,0.160,tonnes_CO2/bundle,Synthetic diagnostic assumption,Spot 3PL contractor (diesel baseline + repositioning),Direct outsourced service emissions
+Economics_Targets,initial_diesel_fleet,N_0_D,10,vehicles,Synthetic diagnostic assumption,Baseline operator fleet size,10 Class 6 diesel trucks
+Economics_Targets,initial_electric_fleet,N_0_E,0,vehicles,Synthetic diagnostic assumption,Pre-transition baseline,0 Class 6 electric trucks
+Economics_Targets,initial_chargers,k_0,0,chargers,Synthetic diagnostic assumption,Pre-transition baseline,0 depot chargers
+Economics_Targets,capital_budget_total,W_1,1200000,USD,Synthetic diagnostic assumption,Corporate transition financing ceiling,Maximum cumulative capital expenditure
+Economics_Targets,annual_capital_limit,B_yr,500000,USD/year,Synthetic diagnostic assumption,Annual cash expenditure ceiling,Prevents excessive front-loading of investment
+Economics_Targets,quarterly_discount_factor,delta,0.97937,fraction,Synthetic diagnostic assumption,Derived from 0.92 annual discount factor (0.92^(1/4)),Quarterly compounding factor
+Economics_Targets,operating_cycles_per_quarter,w_t,65,cycles/quarter,Synthetic diagnostic assumption,Assumes 5 operating days/week x 13 weeks = 65 cycles,Operating days per quarterly decision epoch
+Economics_Targets,outsourced_cost_D1,c_O_D1,180,USD/bundle,Synthetic diagnostic assumption,Third-party logistics spot replacement quote,Contractor spot fee per bundle
+Economics_Targets,outsourced_cost_D2,c_O_D2,270,USD/bundle,Synthetic diagnostic assumption,Third-party logistics spot replacement quote,Contractor spot fee per bundle
+Economics_Targets,outsourced_cost_D3,c_O_D3,420,USD/bundle,Synthetic diagnostic assumption,Third-party logistics spot replacement quote,Contractor spot fee per bundle
+Economics_Targets,outsourcing_limit_per_quarter,o_bar,65,bundles/quarter,Synthetic diagnostic assumption,Upper limit on contractor spot substitution,Max 1 outsourced duty per cycle on average
+Economics_Targets,demand_bundles_D1,n_D1,3,bundles/cycle,Synthetic diagnostic assumption,Urban recurring delivery demand,Electrifiable duty bundle
+Economics_Targets,demand_bundles_D2,n_D2,4,bundles/cycle,Synthetic diagnostic assumption,Suburban recurring delivery demand,Incompatible with 200kWh pack (diesel-only)
+Economics_Targets,demand_bundles_D3,n_D3,3,bundles/cycle,Synthetic diagnostic assumption,Regional recurring delivery demand,Incompatible with 200kWh pack (diesel-only)
+Carbon_Scenario_Infeasible,annual_emissions_cap_infeasible,C_cap_infeasible,220,tonnes_CO2/year,Infeasible diagnostic benchmark,Violates physical floor of diesel-only duties (226.5 t/yr),Used to verify model correctly detects structural infeasibility
+Carbon_Scenario_Infeasible,cumulative_carbon_budget_infeasible,b_1_infeasible,800,tonnes_CO2,Infeasible diagnostic benchmark,Redundant under 220 t cap (3x220=660<800),Diagnostic check for constraint interaction
+Carbon_Scenario_Active,annual_emissions_cap_active,C_cap_active,300,tonnes_CO2/year,Active transition configuration,Accommodates lead-time delays while requiring urban electrification,Binding annual cap for primary transition experiment
+Carbon_Scenario_Active,cumulative_carbon_budget_active,b_1_active,836,tonnes_CO2,Adaptive learning configuration,Creates a pilot-to-scale decision margin under posterior-dependent robust carbon accounting,"One pilot is sufficient in low/mid regimes; a second EV is required in the high-energy regime"
+Carbon_Scenario_Control,annual_emissions_cap_control,C_cap_control,400,tonnes_CO2/year,Unconstrained control configuration,Non-binding annual cap,Baseline to isolate financial and learning dynamics without carbon penalty
+Carbon_Scenario_Control,cumulative_carbon_budget_control,b_1_control,1200,tonnes_CO2,Unconstrained control configuration,Non-binding cumulative budget,Baseline to isolate financial and learning dynamics without carbon penalty
+Stochastic_Process,traction_noise_std,sigma_trac,3.5,kWh,Synthetic diagnostic assumption,Standard deviation of daily traction residual epsilon_trac,Residual variation after conditioning on distance and regime
+Stochastic_Process,traction_noise_min,eps_trac_min,-10.0,kWh,Synthetic diagnostic assumption,Lower bound of bounded support for epsilon_trac,Ensures nonnegative traction energy
+Stochastic_Process,traction_noise_max,eps_trac_max,10.0,kWh,Synthetic diagnostic assumption,Upper bound of bounded support for epsilon_trac,Ensures worst-case traction envelope: 85*1.75+10 = 158.75 kWh
+Stochastic_Process,onboard_aux_min,aux_min,5.0,kWh,Synthetic diagnostic assumption,Minimum vehicle onboard auxiliary load (mild temperature),Baseload vehicle electronics and ventilation
+Stochastic_Process,onboard_aux_max,aux_max,20.0,kWh,Synthetic diagnostic assumption,Maximum vehicle onboard auxiliary load (extreme cold/heat),Worst-case total battery envelope: 158.75+20 = 178.75 kWh <= 200 kWh
+Stochastic_Process,telemetry_sensor_noise_std,sigma_nu,0.5,kWh,Synthetic diagnostic assumption,CAN-bus sensor measurement noise std,Governs enhanced observation likelihood L(Y_t | theta)
+Stochastic_Process,aggregate_depot_noise_std,sigma_Z,5.0,kWh,Synthetic diagnostic assumption,Depot facility auxiliary unobserved variation std,Governs baseline aggregate utility meter likelihood L(Z_t^E | theta)
+Stochastic_Process,quarterly_meter_confounding_std,sigma_Z_qtr,1600.0,kWh/quarter,Synthetic diagnostic assumption,Unallocated quarterly depot-electricity and meter reconciliation error,Prevents aggregate billing data from being treated as equivalent to direct traction telemetry
